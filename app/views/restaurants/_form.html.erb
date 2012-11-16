@@ -1,4 +1,5 @@
 <%= render :partial => 'shared/errors', :locals => {:object => @restaurant} %>
+
 <%= form_for @restaurant do |f| %>
 
 	<div class='field'>
@@ -23,6 +24,13 @@
     	<% end %>
   	</div>
   	<br>
+	<div class='field'>
+		Dishes:
+		<% Dish.all.each do |dish| %>
+			<%= check_box_tag 'restaurant[dish_ids][]', dish.id, @restaurant.dishes.include?(dish) %>
+			<span><%= dish.name %></span>
+		<% end %>
+	</div>
 	<div class='field'>
 		<div class="submit"><%= f.submit %></div>
 	</div>

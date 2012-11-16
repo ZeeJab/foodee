@@ -5,7 +5,7 @@
     <%= f.label :restaurant_id %>
     <%= f.select :restaurant_id, Restaurant.all.map{|r| [r.name, r.id]} %>
   </div>
-   <br>
+  <br>
   <div class="field">
     <%= f.label :name %>
     <%= f.text_field :name %>

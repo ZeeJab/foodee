@@ -12,8 +12,6 @@
  *= require_self
  */
 
-
-
  nav {
  	background: white;
  	color: black;
@@ -49,4 +47,13 @@ footer {
 h1 {
 	font-size: 50px;
 	text-align: center;
+}
+
+div	{
+	margin-left: 20px;
+}
+
+.errors {
+	color: red;
+	margin-left: 10px;
 }

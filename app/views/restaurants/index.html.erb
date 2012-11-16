@@ -1,1 +1,7 @@
-index.html.erb
+<ul>
+	<% @restaurants.each do |restaurant| %>
+	<li>
+		<p><%= link_to restaurant.name, restaurant %></p>
+	</li>
+	<% end %>
+</ul>

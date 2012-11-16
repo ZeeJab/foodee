@@ -77,9 +77,12 @@ footer p {
 
 h1 {
 	margin-bottom: 30px;
-
 }
 
+h2 {
+	font-size: 30px; 
+	margin-bottom: 20px;
+}
 .logo {
 	font-size: 80px;
 	color: white;
@@ -91,7 +94,8 @@ a:hover {
 }
 
 footer {
-	text-align: right
+	text-align: right;
+
 }
 
 h1 {
@@ -99,11 +103,12 @@ h1 {
 	text-align: center;
 }
 
-div	{
-	margin-left: 20px;
+label {
+	display: block;
 }
+
 
 .errors {
 	color: red;
-	margin-left: 10px;
+	margin-bottom: 20px;
 }

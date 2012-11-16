@@ -15,4 +15,9 @@
 /tmp
 
 
+
+
+
+# Ignore
 /config/database.yml
+

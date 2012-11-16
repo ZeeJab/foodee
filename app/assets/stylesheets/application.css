@@ -91,7 +91,8 @@ a:hover {
 }
 
 footer {
-	text-align: right
+	text-align: right;
+	height: 50px;
 }
 
 h1 {
@@ -107,3 +108,75 @@ div	{
 	color: red;
 	margin-left: 10px;
 }
+
+
+
+
+
+
+
+
+
+  footer .socialmedia{
+          width: 300px;
+          padding-left: 50px;
+          float: left;
+          
+     }
+
+          footer .socialmedia ul li {
+               padding: 5px 5px 5px 0px; 
+               float: left;
+          }
+
+
+          footer .socialmedia ul li a {
+               margin: 5px;
+               width: 32px;
+               height: 32px;
+               display: block; 
+               text-indent: 100%;
+               white-space: nowrap;
+               overflow: hidden;
+             
+          }
+
+               footer .socialmedia ul li.linkedin a {
+                    
+                    background: url('sprite.png');
+
+                    
+               
+               }
+
+               footer .socialmedia ul li.twitter a {
+                   
+                    background: url('sprite.png');
+                    background-position: 0px -64px;
+                    
+               
+               }
+
+               footer .socialmedia ul li.facebook a {
+                    
+                    background: url('sprite.png');
+                    background-position: 0px -32px;
+               
+               }
+
+               
+
+
+               footer .socialmedia ul li.linkedin a:hover {
+                    background: url('spritegray.png');
+               }
+
+               footer .socialmedia ul li.twitter a:hover {
+                    background: url('spritegray.png');
+                    background-position: 0px -64px;
+               }
+
+               footer .socialmedia ul li.facebook a:hover {
+                    background: url('spritegray.png');
+                    background-position: 0px -32px;
+               }

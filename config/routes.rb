@@ -53,10 +53,7 @@ Foodee::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-<<<<<<< HEAD
-  root :to => 'home#index'
-=======
->>>>>>> f155f5d050f43b58abe66677eb8cb199d2708c4a
+
 
   # See how all your routes lay out with "rake routes"
 

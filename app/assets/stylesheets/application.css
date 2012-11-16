@@ -15,7 +15,7 @@
  nav {
  	background: black;
  	color: white;
- 	height: 20px;
+ 	height: 15px;
  	padding: 20px;
  	
  }
@@ -24,11 +24,21 @@ a {
 	color: white;
 	text-decoration: none;
  	color: white;
- 	font-size: 20px;
+ 	font-size: 15px;
  	text-align: right;
  	margin: 10px;
 }
 
+a:hover {
+	background: yellow;
+	color: black;
+}
+
 footer {
 	text-align: right
+}
+
+h1 {
+	font-size: 100px;
+	text-align: center;
 }

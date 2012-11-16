@@ -12,23 +12,97 @@
  *= require_self
  */
 
- nav {
- 	background: black;
- 	color: white;
- 	height: 20px;
- 	padding: 20px;
- 	
+body {
+	font-family: helvetica;
+	font-weight: 200;
+}
+ 
+ #wrapper {
+ 	margin: auto;
+ 	width: 960px;
  }
 
-a {
-	color: white;
-	text-decoration: none;
+ #yield {
+ 	margin-top: 20px;
+ }
+
+ .lorem {
+ 	width: 700px;
+ 	color: gray;
+ 	margin: auto;
+ 	font-size: 12px;
+ }
+
+ nav {
+ 	background: gray;
+ 	height: 140px;
+ 	text-align: center;
+ 	border-radius: 5px;
+ }
+ nav a {
  	color: white;
+ 	height: 15px;
+ 	padding: 20px;
+ 	text-align: center;
+	text-decoration: none;
  	font-size: 20px;
- 	text-align: right;
  	margin: 10px;
+ }
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+
+
+.update {
+	margin: 0;
+	margin-top: 20px
+}
+
+footer {
+	background: gray;
+	height: 20px;
+	margin-top: 100px;
+	color: white;
+	border-radius: 3px;
+}
+
+footer p {
+	font-size: 12px;
+	padding: 5px;
+}
+
+h1 {
+	margin-bottom: 30px;
+
+}
+
+.logo {
+	font-size: 80px;
+	color: white;
+	margin-bottom: 20px;
+}
+
+a:hover {
+	color: pink;
 }
 
 footer {
 	text-align: right
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+div	{
+	margin-left: 20px;
+}
+
+.errors {
+	color: red;
+	margin-left: 10px;
 }

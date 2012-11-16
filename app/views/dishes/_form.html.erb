@@ -1,10 +1,10 @@
-<ul class='errors'>
-  <% @dish.errors.full_messages.each do |error| %>
-    <li><%= error %></li>
-  <% end %>
-</ul>
+<%= render :partial => 'shared/errors', :locals => {:object => @dish} %>
 
 <%= form_for @dish do |f| %>
+  <div class="field">
+    <%= f.label :restaurant_id %>
+    <%= f.select :restaurant_id, Restaurant.all.map{|r| [r.name, r.id]} %>
+  </div>
   <div class="field">
     <%= f.label :name %>
     <%= f.text_field :name %>

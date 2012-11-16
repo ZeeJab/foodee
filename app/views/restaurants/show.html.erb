@@ -1,1 +1,4 @@
-show.html.erb
+<h1><%= link_to "delete", restaurant_path(@restaurant), :method => :delete, :confirm => "Are you sure?" %></h1>
+<h1><%= link_to @restaurant.name, edit_restaurant_path(@restaurant) %></h1>
+<p><%= @restaurant.cuisine %></p>
+<p><%= @restaurant.address %></p>

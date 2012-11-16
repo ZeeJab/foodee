@@ -1,11 +1,12 @@
 <h2><%= @dish.name %></h2>
 
-
+<p>Restaurant: <%= @dish.restaurant.name %></p>
 <p>Cost: <%= number_to_currency @dish.cost %></p>
 <%= image_tag @dish.photo %>
+
 <div class="update">
-<%= link_to "Edit", edit_dish_path(@dish) %>
-<%= link_to "delete", dish_path(@dish), :method => :delete, :confirm => "are you sure?" %>
+  <%= link_to "Edit", edit_dish_path(@dish) %>
+  <%= link_to "delete", dish_path(@dish), :method => :delete, :confirm => "are you sure?" %>
 </div>
 
 

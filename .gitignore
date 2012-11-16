@@ -14,6 +14,7 @@
 /log/*.log
 /tmp
 
+<<<<<<< HEAD
 
 
 
@@ -21,3 +22,11 @@
 # Ignore
 /config/database.yml
 
+=======
+<<<<<<< HEAD
+* Change database
+=======
+# Ignore
+>>>>>>> f155f5d050f43b58abe66677eb8cb199d2708c4a
+/config/database.yml
+>>>>>>> 2585dcbd1b9a238a028c4b3e7060fe81846832e0

@@ -1,3 +1,4 @@
+
 # == Schema Information
 #
 # Table name: restaurants
@@ -16,4 +17,7 @@ class Restaurant < ActiveRecord::Base
 	validates_length_of :name, :minimum => 3
 
 	has_many :dishes	
+
+
+
 end

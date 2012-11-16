@@ -39,7 +39,7 @@ body {
 
  nav {
  	background: gray;
- 	height: 140px;
+ 	height: 170px;
  	text-align: center;
  }
  nav a {
@@ -95,7 +95,7 @@ h2 {
 	font-size: 80px;
 	color: white;
 	margin-bottom: 30px;
-
+	padding-top: 25px
 }
 
 a:hover {

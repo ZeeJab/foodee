@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Foodee</title>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -11,7 +12,7 @@
 	<header>
 
 		<nav>
-			<h1 class="logo">FOODEE</h1>
+			<h1 class="logo">Foodee</h1>
 			<%= link_to "Home", root_path %>
 			<%= link_to "Restaurants", restaurants_path %>
       		<%= link_to "New Restaurant", new_restaurant_path %>

@@ -12,14 +12,10 @@
 #
 
 class Restaurant < ActiveRecord::Base
-	validates :cuisine, :presence => true
+	has_many :dishes  
+  	has_many :receipts
+  	validates :cuisine, :presence => true
 	validates :address, :presence => true
 	validates_length_of :name, :minimum => 3
-  validates :name, :uniqueness => true
-
-	has_many :dishes	
-	has_many :receipts
-
-
-
+	validates :name, :uniqueness => true
 end

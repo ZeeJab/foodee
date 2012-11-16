@@ -33,6 +33,7 @@ body {
  	width: 700px;
  	color: gray;
  	margin: auto;
+ 	padding: 10px;
  	font-size: 12px;
  }
 
@@ -86,7 +87,7 @@ h2 {
 .logo {
 	font-size: 80px;
 	color: white;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 a:hover {
@@ -105,4 +106,8 @@ footer {
 
 label {
   display: block;
+}
+
+.errors {
+	color: red;
 }

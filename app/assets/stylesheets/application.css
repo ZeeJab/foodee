@@ -12,9 +12,35 @@
  *= require_self
  */
 
+body {
+	font-family: helvetica;
+	font-weight: 200;
+}
+ 
+ #wrapper {
+ 	margin: auto;
+ 	width: 960px;
+ }
+
+ #yield {
+ 	margin-top: 20px;
+ }
+
+ .lorem {
+ 	width: 700px;
+ 	color: gray;
+ 	margin: auto;
+ 	font-size: 12px;
+ }
+
  nav {
- 	background: white;
- 	color: black;
+ 	background: gray;
+ 	height: 140px;
+ 	text-align: center;
+ 	border-radius: 5px;
+ }
+ nav a {
+ 	color: white;
  	height: 15px;
  	padding: 20px;
  	text-align: center;
@@ -27,17 +53,33 @@ a {
  	font-size: 20px;
  	text-align: center;
  	margin: 10px;
+}
+
+footer {
+	background: gray;
+	height: 20px;
+	margin-top: 100px;
+	color: white;
+}
+
+footer p {
+	font-size: 12px;
+	padding: 4px;
+}
+
+h1 {
+	margin-bottom: 30px;
 
 }
 
 .logo {
-	font-size: 100px;
-	color: red;
+	font-size: 80px;
+	color: white;
+	margin-bottom: 20px;
 }
 
 a:hover {
-	background: pink;
-	color: black;
+	color: pink;
 }
 
 footer {

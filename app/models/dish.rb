@@ -16,4 +16,6 @@ class Dish < ActiveRecord::Base
   validates :cost, :numericality => {:greater_than => 10}
 
   belongs_to :restaurant
+  has_many :orders
+  has_many :receipts, :through => :orders
 end

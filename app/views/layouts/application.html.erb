@@ -10,10 +10,13 @@
 	<header>
 		<h1>FODDEE</h1>
 		<nav>
-			<%= link_to "HOME", root_path %> ::
-			<%= link_to "RESTAURANTS", restaurants_path %> ::
-			<%= link_to "DISHES", dishes_path %> ::
-		</nav>
+			<%= link_to "Home", root_path %>
+			<%= link_to "Restaurants", restaurants_path %>
+      <%= link_to "New Restaurant", new_restaurant_path %>
+
+			<%= link_to "Dishes", dishes_path %>
+      <%= link_to "New Dish", new_dish_path %> 
+    </nav>
 	</header>
 
 <%= yield %>

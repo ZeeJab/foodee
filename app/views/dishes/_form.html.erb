@@ -1,0 +1,23 @@
+<ul class='errors'>
+  <% @dish.errors.full_messages.each do |error| %>
+    <li><%= error %></li>
+  <% end %>
+</ul>
+
+<%= form_for @dish do |f| %>
+  <div class="field">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :cost %>
+    <%= f.number_field :cost %>
+  </div>
+  <div class="field">
+    <%= f.label :photo %>
+    <%= f.text_field :photo %>
+  </div>
+  <div class="field">
+    <%= f.submit %>
+  </div>
+<% end %>

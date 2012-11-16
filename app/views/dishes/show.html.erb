@@ -1,1 +1,4 @@
-show.html.erb
+<h1><%= link_to "delete", dish_path(@dish), :method => :delete, :confirm => "are you sure?" %></h1>
+<h1><%= link_to @dish.name, edit_dish_path(@dish) %></h1>
+<p><%= number_to_currency @dish.cost %></p>
+<%= image_tag @dish.photo %>

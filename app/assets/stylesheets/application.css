@@ -156,7 +156,7 @@ label {
 
                footer .socialmedia ul li.linkedin a {
                     
-                    background: url('sprite.png');
+                    background: url('spritegray.png');
 
                     
                
@@ -164,7 +164,7 @@ label {
 
                footer .socialmedia ul li.twitter a {
                    
-                    background: url('sprite.png');
+                    background: url('spritegray.png');
                     background-position: 0px -64px;
                     
                
@@ -172,7 +172,7 @@ label {
 
                footer .socialmedia ul li.facebook a {
                     
-                    background: url('sprite.png');
+                    background: url('spritegray.png');
                     background-position: 0px -32px;
                
                }
@@ -181,15 +181,15 @@ label {
 
 
                footer .socialmedia ul li.linkedin a:hover {
-                    background: url('spritegray.png');
+                    background: url('sprite.png');
                }
 
                footer .socialmedia ul li.twitter a:hover {
-                    background: url('spritegray.png');
+                    background: url('sprite.png');
                     background-position: 0px -64px;
                }
 
                footer .socialmedia ul li.facebook a:hover {
-                    background: url('spritegray.png');
+                    background: url('sprite.png');
                     background-position: 0px -32px;
                }

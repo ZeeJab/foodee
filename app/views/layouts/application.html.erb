@@ -8,13 +8,20 @@
 </head>
 <body>
 	<header>
-		<h1>Foodee</h1>
+		<nav>
+			<%= link_to "Home", root_path %>
+			<%= link_to "Restaurants", restaurants_path %>
+      <%= link_to "New Restaurant", new_restaurant_path %>
+
+			<%= link_to "Dishes", dishes_path %>
+      <%= link_to "New Dish", new_dish_path %> 
+    </nav>
 	</header>
 	
 
 
 <%= yield %>
-	<footer>(c) 2012 </footer>
+	<footer>(c) 2012 Foodee Corp :: Chris - Jon - Zahra </footer>
 
 </body>
 </html>

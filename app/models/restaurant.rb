@@ -18,6 +18,7 @@ class Restaurant < ActiveRecord::Base
   validates :name, :uniqueness => true
 
 	has_many :dishes	
+	has_many :receipts
 
 
 

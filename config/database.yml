@@ -5,8 +5,5 @@ development:
   pool: 5
   host: localhost
   username: postgres
-<<<<<<< HEAD
-  password: gado595
-=======
   password: 1234
->>>>>>> 2585dcbd1b9a238a028c4b3e7060fe81846832e0
+
